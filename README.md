@@ -7,15 +7,15 @@ This library provides a Microsoft MakeCode package for the Joy-IT SBC-RFID-RC522
 
 The RFID module needs to be connected with six pins to the Micro:bit:
 
-| RFID module | Micro:bit |
+| RFID module | Calliope  |
 |-------------|-----------|
 | VCC         | 3V        |
 | GND         | GND       |
 | MISO        | P15       |
 | MOSI        | P14       |
 | SCK         | P13       |
-| NSS         | P16       |
-
+| NSS         | P03       |
+| RST         | C4       |
 ## Initialize RFID module
 
 The RFID module needs to be initialized before it is ready to use. All necessary commands will be transferred via SPI here.
