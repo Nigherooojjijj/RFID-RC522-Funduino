@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "built",
+    "rootDir": "."
+  },
+  "exclude": [
+    "pxt_modules",
+    "node_modules",
+    "built"
+  ]
+}
